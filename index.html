@@ -5,31 +5,58 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+  <link rel="stylesheet" href="assets/style.css">
 
   <title></title>
 </head>
 
 <body>
-  <div class="iconMenu">
-    <img src="assets/img/viajes.svg" class="IconoDeBarra" alt="...">
-    <h3>Viajes Chile</h3>
-  </div>
-  
-  <ul class="Menu">
-    <li><a href=""></a>Inicio</li>
-    <li><a href=""></a>Quiénes Somos</li>
-    <li><a href=""></a>Destacados</li>
-    <li><a href=""></a>Contacto</li>
-  </ul>
-  
   <header>
-    <div>
-      <h1>mi titulo</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ipsa consequatur magnam blanditiis.
-        Temporibus saepe magnam eius enim, explicabo quibusdam dolore quasi rerum dicta soluta consectetur aperiam,
-        repellat
-        a officiis.</p>
+
+    <div class="navbar fixed-top barra-nav">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="nav_icono_texto">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Viajes Chile
+          </a>
+        </div>
+        <div class="navbar-nav ml-auto">
+
+        </div>
+      </nav>
+      <div>
+        <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
+          <a class="navbar-brand abs" href="#">Bienvenido</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">Quiénes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#myAlert" data-toggle="collapse">Destacados</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
+
+
+
+    <!---Carousel de fotos--->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -51,75 +78,91 @@
         <span class="sr-only">Next</span>
       </button>
     </div>
+    <!---Carousel de fotos--->
   </header>
 
   <!--Quienes somos-->
-  <div class="TituloQuieneSomos">
-    <h3>¿Quiénes Somos?</h3>
-  </div>
-  <div class="container-fluit ">
-    <div class="Container">
-      <div class="Row">
-        <div class="col-md-4">
-          <div class="IconAvion">
-
-          </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores molestiae maxime labore dignissimos ex, at nam totam recusandae dolore fugiat eligendi id deleniti possimus assumenda eius minima ab repellat non.</p>
-        </div>
-        <div class="col-md-4">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci hic atque blanditiis? Nobis officia aperiam dolorum rem ducimus recusandae quos quaerat ex tempora, similique laboriosam odio beatae dignissimos, commodi modi!</p>
-          <div class="IconAlert">
-
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="IconCamino">
-
-          </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt recusandae dolor quasi enim minima quidem corrupti maxime delectus, facilis ipsa hic veniam necessitatibus libero provident cum esse laudantium dolorum nisi.</p>
-        </div>
-      </div>
-    </div>
-  </div><!--Quienes somos-->
-
-  <div class="ModuloDestacados">
-    <div>
-      <h3>Destacados</h3>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
+  <div class="QuienesSomos">
+    <div class="TituloQuieneSomos">
+      <h2>¿Quiénes Somos?<hr></h2>
     </div>
     
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="Row">
+      <div class="Column">
+        <p>b</p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab vitae provident, quos rerum, eveniet maxime tenetur reprehenderit iste sed itaque possimus eum! Laudantium assumenda nisi inventore quibusdam sapiente, rem maiores?
       </div>
-    </div>
+      <div class="Column">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolores nam a natus nobis soluta accusamus corrupti tempore odio facilis in repellat aliquam minima ducimus assumenda, maxime animi. Facilis, tempore!
+        <p>b</p>
+      </div>
+      <div class="Column">
+        <p>b</p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ducimus ea velit dolores dolore omnis. Nulla obcaecati, officiis adipisci, id a quidem sunt nesciunt recusandae ipsum aliquam error itaque quos.
+      </div>
+  </div>
+  <!--Quienes somos-->
 
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <div class="ModuloDestacados">
+    <div class="TituloDestacados">
+      <h2>Destacados </h2>
+    </div><hr/>
+
+    <!---cards--->
+    <div class="row">
+      <div class="card" style="width: 25rem; left: 100px;" >
+        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima est fuga exercitationem laudantium labore rem ducimus laboriosam reprehenderit, odit, ut temporibus facere inventore blanditiis, voluptate voluptates ipsum distinctio quas illo?/<p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 25rem; left: 170px; ">
+        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ad at laboriosam molestiae architecto? Impedit magni asperiores quisquam delectus voluptas sapiente nobis. Sed, temporibus molestiae fugiat optio velit cum voluptates.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 25rem; left: 220px;">
+        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aperiam iste quis. Quisquam ipsa vitae id officiis perspiciatis cupiditate, adipisci libero vel asperiores perferendis explicabo deleniti accusamus. Deleniti, laborum corrupti.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 25rem; left: 300px;">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, sit? Quibusdam sapiente facilis quod molestiae aut doloribus magni vitae hic, architecto blanditiis quasi nemo numquam asperiores quae explicabo iure enim?.</p>
+        </div>
       </div>
     </div>
+    <!---cards--->
   </div>
 
-  <div>
+
+
+  <div class="Contacto">
+    <div>
+      <h2>Contacto</h2>
+    </div>
+
     <div data-tf-widget="denAmnbk" style="width:100%;height:400px;"></div>
     <script src="//embed.typeform.com/next/embed.js"></script>
   </div>
+
+  <!---Pie de Pagina--->
+  <footer class="PiePagina">
+    <div class="ViajesChile">
+      <h1>Viajes Chile</h1>
+    </div>
+    <div>
+     <i class="fas fa linkedin"></i>
+    </div>
+  </footer>
+  <!---Pie de Pagina--->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

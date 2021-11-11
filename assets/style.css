@@ -1,3 +1,62 @@
-{
+.header{
+    background-color: transparent;    
+}
 
+
+
+body{
+    background-color: black;
+}
+
+.QuienesSomos{
+    color: white;
+
+}
+.TituloQuieneSomos{
+    text-align: center;
+}
+
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 50px; /*Optional*/
+    font-size: 150%;
+}
+.Column {
+    display: table-cell;
+}
+
+.card{
+    background-color: cornflowerblue;
+}
+
+.TituloDestacados{
+    text-align: center;
+    color: white;
+}
+
+.Contacto{
+    color: white;
+    text-align: center;
+    padding: 5%;
+
+}
+
+.PiePagina{
+    background-color: cornflowerblue;
+    color: white;
+    padding-bottom: 10px;
+}
+hr {
+    border: 0 nonec cornflowerblue;
+    border-top: 1px solid cornflowerblue;
+    height: 1px;
+    margin: 5px 0;
+    display: block;
+    clear: both;
+    }
+
+p{
+    background-color: cornflowerblue;
 }
