@@ -43,10 +43,18 @@ body{
 
 }
 
-.PiePagina{
+.paddingCartas{
+    padding: 25px;
+    width: 100%;
+}
+
+.imagenCentradaQuienesSomos{
+    text-align: center;
+}
+
+.piePagina{
     background-color: cornflowerblue;
     color: white;
-    padding-bottom: 10px;
 }
 hr {
     border: 0 nonec cornflowerblue;
@@ -59,4 +67,17 @@ hr {
 
 p{
     background-color: cornflowerblue;
+}
+
+.viajesChile{
+    text-align: left;
+    padding-top: 10px;
+}
+
+
+.iconosContactos{
+    text-align: right;
+    width: 40%;
+    font-size: 200%;
+    padding: auto;
 }
